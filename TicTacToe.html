@@ -16,65 +16,57 @@
 
 </head>
 <body>
-
     <h1>Tic-Tac-Toe</h1>
 
     <div class="BigContent">
-    <div class="container">
-    
-    <div class="carre">
-        
-        <div class="row1">
-        <div class="ligne">
-            <button></button>
+        <div class="container">
+            <div class="carre">
+                <div class="row1">
+                    <div class="ligne">
+                        <button id="cell-0" onclick="makeMove(0)"></button>
+                    </div>
+                    <div class="ligne">
+                        <button id="cell-1" onclick="makeMove(1)"></button>
+                    </div>
+                    <div class="ligne">
+                        <button id="cell-2" onclick="makeMove(2)"></button>
+                    </div>
+                </div>
+                <div class="row2">
+                    <div class="ligne">
+                        <button id="cell-3" onclick="makeMove(3)"></button>
+                    </div>
+                    <div class="ligne">
+                        <button id="cell-4" onclick="makeMove(4)"></button>
+                    </div>
+                    <div class="ligne">
+                        <button id="cell-5" onclick="makeMove(5)"></button>
+                    </div>
+                </div>
+                <div class="row3">
+                    <div class="ligne">
+                        <button id="cell-6" onclick="makeMove(6)"></button>
+                    </div>
+                    <div class="ligne">
+                        <button id="cell-7" onclick="makeMove(7)"></button>
+                    </div>
+                    <div class="ligne">
+                        <button id="cell-8" onclick="makeMove(8)"></button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="ligne">
-            <button></button>
-        </div>
-        <div class="ligne">
-            <button></button>
+    </div>
+    <p id="winner"></p>
+
+    <div class="contentContent">
+        <div class="Start-content">
+
+            <button class="start2" onclick="restartGame()">Restart</button>
         </div>
     </div>
 
-        <div class="row2">
-            <div class="ligne">
-            <button></button>
-             </div>
-            <div class="ligne">
-            <button></button>
-            </div>
-            <div class="ligne">
-            <button></button>
-        </div>
-        </div>
-
-        <div class="row3">
-            <div class="ligne">
-            <button></button>
-            </div>
-            <div class="ligne">
-            <button></button>
-            </div>
-            <div class="ligne">
-            <button></button>
-            </div>
-        </div>
-        
-
+    <div class="themeChanger">
+        <button onclick="spooky()" class="buttonTC">Spooky</button>
     </div>
-</div>
-</div>
-
-<div class="contentContent">
-<div class="Start-content">
-    <button class="start">Start</button>
-    <button class="start2">Restart</button>
-</div>
-</div>
-
-<div class="themeChanger">
-<button onclick="spooky()" class="buttonTC">Spooky</button>
-</div>
-    
 </body>
-</html>
