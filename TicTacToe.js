@@ -5,7 +5,7 @@ function spooky(){
     const link = document.getElementById("myLink");
 
     if(buttonTC.innerHTML === "NEON") {
-        buttonTC.innerHTML = "SPOOKY"
+        buttonTC.innerHTML = "SPKY"
     } else {
         buttonTC.innerHTML = "NEON"
     }
