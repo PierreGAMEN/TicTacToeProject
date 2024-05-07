@@ -18,3 +18,5 @@ This repository contains a simple implementation of the classic Tic Tac Toe game
 5. Enjoy playing Tic Tac Toe against a friend!
 
 ## Here a small preview
+![Tic Tac Toe neon mode](./image/TicTacToe-picture1.png)
+![Tic Tac Toe spooky mode](./image/TicTacToe-picture2.png)
