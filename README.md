@@ -13,7 +13,7 @@ This repository contains a simple implementation of the classic Tic Tac Toe game
 ## How to Play
 1. Clone this repository to your local machine using `git clone git@github.com:PierreGAMEN/TicTacToeProject.git`.
 2. Navigate to the project directory: ``.
-3. Run the game by executing `` in your terminal.
+3. Run the game by executing `Go live` in your VS Code.
 4. Follow the on-screen instructions to play the game.
 5. Enjoy playing Tic Tac Toe against a friend!
 
